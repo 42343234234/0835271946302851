@@ -1,0 +1,57 @@
+<!DOCTYPE html>
+<html lang="pl">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Alert powodziowy</title>
+  <link rel="stylesheet" href="assets/powodzie.css">
+</head>
+<body>
+
+  <div class="navbar">
+    <a href="#" onclick="goBack()">← Wróć</a>
+    <span>Alert powodziowy</span>
+  </div>
+
+  <div class="icon-circle">
+    <img src="assets/images/nLA4kjF.png" alt="ikona">
+  </div>
+  
+  <div class="header-text">
+    <h1>Sprawdź oficjalne<br>informacje o powodzi</h1>
+    <p>Tu znajdziesz aktualne i potwierdzone dane.</p>
+  </div>
+
+  <div class="card">
+    <div class="item" onclick="showAlert('Mapa ostrzeżeń')">
+      <div class="item-left">🗺️</div>
+      <div class="item-right">
+        <h2>Mapa ostrzeżeń</h2>
+        <p>Zobacz, na których obszarach obowiązują ostrzeżenia hydrologiczne.</p>
+      </div>
+    </div>
+    <div class="item" onclick="showAlert('Ostrzeżenia hydrologiczne')">
+      <div class="item-left">⚠️</div>
+      <div class="item-right">
+        <h2>Ostrzeżenia hydrologiczne</h2>
+        <p>Zapoznaj się z aktualnymi ostrzeżeniami hydrologicznymi.</p>
+      </div>
+    </div>
+    <div class="item" onclick="showAlert('Jak postępować?')">
+      <div class="item-left">ℹ️</div>
+      <div class="item-right">
+        <h2>Jak postępować?</h2>
+        <p>Dowiedz się, co robić w razie powodzi.</p>
+      </div>
+    </div>
+  </div>
+
+  <div class="support">
+    <h3>Wsparcie materialne</h3>
+    <p>Szukasz informacji o wsparciu materialnym dla osób poszkodowanych przez powódź?</p>
+    <a href="https://www.gov.pl" target="_blank">Przejdź do gov.pl</a>
+  </div>
+
+  <script src="assets/powodzie.js"></script>
+</body>
+</html>
